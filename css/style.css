@@ -42,9 +42,9 @@ body {
   height: 844px;
   overflow: scroll;
   margin: 0 auto;
-  /* position: absolute;
+  /* position: absolute; */
   top: 10%;
-  left: 40%; */
+  left: 40%;
 }
 
 .header {
@@ -76,14 +76,24 @@ strong {
   font-weight: bold;
   font-family: DarkerGrotesque-Black, sans-serif;
   font-style: oblique;
-  color: #6c5ce7;
+  color: #ffdd59;
 }
 
+.strong-g {
+  color: #0be881;
+}
 .strong2 {
   padding-bottom: 50px;
   color: #6c5ce7;
 }
 
+.strong3 {
+  color: white;
+}
+
+.strong4 {
+  color: #75481d;
+}
 .details-4 {
   width: 70%;
   height: auto;
@@ -494,7 +504,7 @@ strong {
   text-align: center;
   font-size: 9pt;
   font-family: DarkerGrotesque-Regular, sans-serif;
-  margin-top: -12px;
+  margin-top: -11px;
   padding: 0;
   color: white;
 }
