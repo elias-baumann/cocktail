@@ -1,0 +1,495 @@
+@font-face {
+  font-family: Moonset;
+  src: url("font/Moonset.ttf") format(ttf);
+  src: url("font/Moonset.otf") format(otf);
+}
+
+@font-face {
+  font-family: DarkerGrotesque-Black;
+  src: url(font/DarkerGrotesque-Black.ttf) format(ttf);
+}
+
+@font-face {
+  font-family: DarkerGrotesque-Bold;
+  src: url(font/DarkerGrotesque-Bold.ttf) format(ttf);
+}
+
+@font-face {
+  font-family: DarkerGrotesque-Light;
+  src: url(font/DarkerGrotesque-Light.ttf) format(ttf);
+}
+
+@font-face {
+  font-family: DarkerGrotesque-Medium;
+  src: url(font/DarkerGrotesque-Medium.ttf) format(ttf);
+}
+
+@font-face {
+  font-family: DarkerGrotesque-Regular;
+  src: url(font/DarkerGrotesque-Regular.ttf) format(ttf);
+}
+
+body {
+  background-color: #ff5964;
+  height: 100%;
+  margin: 0;
+}
+/* kommentar im main rausnehmen, wenn auf desktop */
+.main {
+  background-color: #2a2a2a;
+  width: 390px;
+  height: 844px;
+  overflow: scroll;
+  margin: 0 auto;
+  /* position: absolute;
+  top: 10%;
+  left: 40%; */
+}
+
+.header {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title p {
+  color: #6c5ce7;
+  font-size: 30pt;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-family: Moonset, sans-serif;
+}
+
+.header-textsection p {
+  color: #a29bfe;
+  font-style: oblique;
+  padding: 0;
+  margin-bottom: 60px;
+  font-family: "DarkerGrotesque-Light", sans-serif;
+  font-style: thin;
+  /* font-style: oblique; */
+}
+
+strong {
+  font-weight: bold;
+  font-family: DarkerGrotesque-Black, sans-serif;
+  font-style: oblique;
+  color: #6c5ce7;
+}
+
+.strong2 {
+  padding-bottom: 50px;
+  color: #6c5ce7;
+}
+
+.details-4 {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.detail {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 33px;
+  border-radius: 12px;
+}
+
+.detail-link {
+  text-decoration: none;
+}
+
+.lime {
+  background-color: #0be881;
+}
+
+.zitrone {
+  background-color: #ffdd59;
+}
+
+.zubereitung {
+  border: 5px solid white;
+  background-color: #2a2a2a;
+  height: 45px;
+  margin-bottom: 33px;
+  border-radius: 12px;
+}
+
+.zubereitung p {
+  padding: 0;
+}
+
+.zucker {
+  background-color: #75481d;
+}
+
+.detail-title {
+  font-family: Moonset, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.arrow-section {
+  height: 70px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  /* background-color: red; */
+}
+
+.pfeilfarbe {
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.einleitung {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  color: #a29bfe;
+  font-family: DarkerGrotesque-Regular, sans-serif;
+  font-style: oblique;
+}
+
+.einleitung p {
+  margin-bottom: 20px;
+}
+
+.lime-section {
+  padding-top: 20px;
+}
+
+.lime-title p {
+  font-family: Moonset, sans-serif;
+  text-align: center;
+  color: #0be881;
+  font-size: 36pt;
+  margin-bottom: 0;
+}
+/* -------------------------------------------------------------------------------- */
+
+.article {
+  position: relative;
+  padding: 0;
+  /* margin: 0 auto; */
+  margin-top: -270px;
+}
+
+.figure {
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  left: 0;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 0;
+  width: 390px;
+  height: 10vh;
+}
+
+.figure img {
+  margin-top: -100px;
+}
+
+.step {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  height: 60vh;
+}
+
+.step p {
+  text-align: center;
+  font-size: 16px;
+  font-family: DarkerGrotesque-Regular, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  color: #a29bfe;
+  font-style: oblique;
+  border: none;
+  width: 90%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.step1 {
+  height: 30vh;
+}
+
+.sticky-img {
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: scale-down;
+  overflow: hidden;
+}
+
+.grundtext {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a29bfe;
+}
+
+.titel {
+  color: #6c5ce7;
+}
+
+.erste {
+  width: 300px;
+  height: 500px;
+  background-color: red;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: scale-down;
+  overflow: hidden;
+}
+
+.between {
+  background-color: #282828;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 400px;
+}
+
+.lime-graph {
+  /* background-color: red; */
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  /* margin-bottom: 200px; */
+  margin-top: -500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.lime-graph-title {
+  text-align: center;
+  font-family: DarkerGrotesque-Regular, sans-serif;
+  font-style: oblique;
+  color: #a29bfe;
+}
+
+.lime-graph-group {
+  height: auto;
+  width: 100%;
+  /* background-color: #0be881; */
+}
+
+.graph {
+  background-color: #636e72;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 12px;
+  /* justify-content: center; */
+}
+
+.in-graph {
+  /* width: 80%; */
+  height: 100%;
+}
+
+.width {
+  width: 70%;
+  border-radius: 12px;
+}
+
+.width2 {
+  width: 60.4%;
+  border-radius: 12px;
+}
+
+.graph p {
+  margin-left: 10px;
+  font-size: 10pt;
+  font-family: DarkerGrotesque-Regular, sans-serif;
+  font-style: oblique;
+  color: white;
+  padding: 3px 0;
+}
+
+.lemonade-section {
+  padding-top: 20px;
+  margin-bottom: 480px;
+}
+
+.lemonade-title p {
+  font-family: Moonset, sans-serif;
+  text-align: center;
+  color: #ffdd59;
+  font-size: 36pt;
+  margin-bottom: 500px;
+  /* background-color: #282828;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+}
+
+.step3 {
+  margin-bottom: 200px;
+}
+
+.step-title {
+  font-family: DarkerGrotesque-Black, sans-serif;
+  background-color: red;
+}
+
+.lime-graph-overall {
+  width: 100%;
+  height: auto;
+  background-color: #282828;
+}
+
+.zubereitung-section {
+  padding-top: 20px;
+  margin-bottom: 480px;
+}
+
+.zubereitung-title {
+  font-family: Moonset, sans-serif;
+  text-align: center;
+  font-size: 30pt;
+  margin-bottom: 500px;
+  /* background-color: #282828;
+  padding-top: 10px;
+  padding-bottom: 1px;
+ */
+}
+
+.zubereitung-title p {
+  /* color: #282828; */
+  /* color: transparent; */
+  color: white;
+  /* text-shadow: 1px 1px 1px white, 1px -1px 1px white, -1px 1px 1px white,
+    -1px -1px 1px white; */
+  /* text-shadow: 0 0 5px black; */
+  /* -webkit-text-stroke: 1.5px white; */
+}
+
+.syrup-section {
+  padding-top: 20px;
+  /* margin-bottom: 480px; */
+}
+
+.syrup-title {
+  color: #75481d;
+  font-family: Moonset, sans-serif;
+  text-align: center;
+  font-size: 30pt;
+  margin-bottom: 450px;
+}
+
+.ende {
+  width: 85%;
+  /* height: auto; */
+  /* background-color: red; */
+  margin: 0 auto;
+}
+
+.ende-titel {
+  font-family: DarkerGrotesque-Black, sans-serif;
+  color: #6c5ce7;
+  font-size: 15pt;
+  text-align: center;
+  font-style: oblique;
+}
+
+.ende a {
+  font-family: DarkerGrotesque-Black, sans-serif;
+  text-align: center;
+  color: #a29bfe;
+  font-size: 10pt;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-style: oblique;
+}
+
+.step7 {
+  height: 30vh;
+}
+
+.abschlusstext {
+  text-align: center;
+  font-size: 16px;
+  font-family: DarkerGrotesque-Regular, sans-serif;
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  color: #a29bfe;
+  font-style: oblique;
+  border: none;
+  width: 90%;
+  margin-top: -50px;
+  margin-bottom: 90px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 9pt;
+  font-family: DarkerGrotesque-Regular, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: white;
+}
+.copyright2 {
+  text-align: center;
+  font-size: 9pt;
+  font-family: DarkerGrotesque-Regular, sans-serif;
+  margin-top: -12px;
+  padding: 0;
+  color: white;
+}
+
+.untertitel {
+  font-family: DarkerGrotesque-Regular, sans-serif;
+  color: #a29bfe;
+  font-size: 16px;
+  text-align: center;
+  font-style: oblique;
+}
